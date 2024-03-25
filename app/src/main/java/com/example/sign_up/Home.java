@@ -19,6 +19,7 @@ import com.google.android.material.tabs.TabLayout;
 
 import java.util.Objects;
 
+// This is the main page that shows to the user after login
 public class Home extends AppCompatActivity {
 
 
@@ -30,6 +31,8 @@ public class Home extends AppCompatActivity {
 
     Button btnInsta;
 
+
+    // used this to track if the user is already logged-in or out
     SharedPreferences sf;
 
 
@@ -85,6 +88,10 @@ public class Home extends AppCompatActivity {
 
         });
 
+
+        // after pressing the instagram screen button
+        // it will direct the user to the instagram page
+
         btnInsta.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -94,6 +101,8 @@ public class Home extends AppCompatActivity {
             }
         });
 
+
+        // if the user has already made an id, show them the login panel
         imgLogout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
