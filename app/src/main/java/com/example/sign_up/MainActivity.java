@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity {
 
                 if ( email.isEmpty() || password.isEmpty() ) {
 
-                    Toast.makeText(MainActivity.this, "Please fill out the form first", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, R.string.please_fill_out_the_form_first , Toast.LENGTH_SHORT).show();
                     return;
 
                 }
@@ -135,7 +135,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else {
 
-                    Toast.makeText(MainActivity.this, "Invalid Email Or Password", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, R.string.invalid_email_or_password , Toast.LENGTH_SHORT).show();
                     clear();
                     return;
 

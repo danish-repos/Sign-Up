@@ -27,7 +27,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:background="@android:color/transparent"
-            android:hint="First Name"
+            android:hint="@string/first_name"
             android:inputType="textEmailAddress"
             android:textSize="14sp" />
 
@@ -54,7 +54,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:background="@android:color/transparent"
-            android:hint="Last Name"
+            android:hint="@string/last_name"
             android:inputType="textEmailAddress"
             android:textSize="14sp" />
 
@@ -82,7 +82,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:background="@android:color/transparent"
-            android:hint="Email"
+            android:hint="@string/email1"
             android:inputType="textEmailAddress"
             android:textSize="14sp" />
 
@@ -110,7 +110,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:background="@android:color/transparent"
-            android:hint="Password"
+            android:hint="@string/password1"
             android:inputType="textPassword"
             android:textSize="14sp" />
 
@@ -137,7 +137,7 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:background="@android:color/transparent"
-            android:hint="Retype Password"
+            android:hint="@string/retype_password"
             android:inputType="textPassword"
             android:textSize="14sp" />
 
@@ -164,7 +164,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Male"
+            android:text="@string/male"
             android:textAlignment="textStart" />
 
         <RadioButton
@@ -172,7 +172,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Female" />
+            android:text="@string/female" />
     </RadioGroup>
 
     <RelativeLayout
@@ -192,8 +192,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:hint="Enter your email"
-                android:text="Register"
+                android:text="@string/register1"
                 android:textSize="14sp" />
 
             <Button
@@ -202,7 +201,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:text="Exit"
+                android:text="@string/exit"
                 android:textSize="14sp" />
 
         </LinearLayout>
@@ -222,7 +221,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="5"
-                android:text="Already have an account?"
+                android:text="@string/already_have_an_account"
                 android:textAlignment="center"
                 android:textSize="16sp" />
 
@@ -232,7 +231,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
                 android:clickable="true"
-                android:text="Login Now"
+                android:text="@string/login_now"
                 android:textColor="#03A9F4"
                 android:textSize="16sp"
                 android:textStyle="bold" />

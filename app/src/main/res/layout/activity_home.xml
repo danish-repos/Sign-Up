@@ -33,7 +33,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Logout"
+                android:text="@string/logout"
                 android:textSize="8sp" />
         </LinearLayout>
 
@@ -43,7 +43,7 @@
             android:layout_height="match_parent"
             android:layout_weight="5"
             android:gravity="center_vertical"
-            android:text="GUI demo (21L-1757)"
+            android:text="@string/gui_demo_21l_1757"
             android:textSize="28sp"
             android:textStyle="bold" />
     </LinearLayout>
@@ -58,21 +58,21 @@
             android:layout_height="wrap_content"
             android:layout="@android:layout/activity_list_item"
             android:icon="@drawable/heart"
-            android:text="One" />
+            android:text="@string/one" />
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout="@android:layout/activity_list_item"
             android:icon="@drawable/call"
-            android:text="Two" />
+            android:text="@string/two" />
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout="@android:layout/activity_list_item"
             android:icon="@drawable/person"
-            android:text="Three" />
+            android:text="@string/three" />
 
     </com.google.android.material.tabs.TabLayout>
 
@@ -95,7 +95,7 @@
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="20dp"
             android:layout_weight="1"
-            android:text="Instagram Page" />
+            android:text="@string/instagram_page" />
 
     </LinearLayout>
 
